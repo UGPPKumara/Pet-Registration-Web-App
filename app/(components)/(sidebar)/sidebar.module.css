@@ -1,0 +1,47 @@
+/* app/(components)/(sidebar)/sidebar.module.css */
+.sidebar {
+  width: 280px;
+  background-color: #ffffff;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  border-top-right-radius: 20px;
+}
+
+.title {
+  padding: 20px 30px;
+}
+
+.links {
+  /* padding: 10px; */
+}
+
+.link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  padding: 10px 30px;
+}
+.link:hover{
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.subLinks {
+  display: none;
+  padding-left: 20px;
+}
+
+.subLink {
+  display: block;
+  padding: 8px;
+  color: #666;
+  text-decoration: none;
+}
+
+.subLink:hover {
+  color: #000;
+}

@@ -9,3 +9,25 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+
+:root{
+  scroll-behavior: smooth;
+  --black-color:#000000;
+  --red-color :#C20000;
+  --blue-color:#2E37A4;
+  --dark-blue-color :#333448;
+  -light-blue-color:#ABAFDB;
+  --green-color:#00D3C7;
+  --text-color:#B0B0B0;
+  --background-color:#E7EFFF;
+  --white-color:#e8f4fc;
+
+
+
+  --primary-color:#25476A;
+  --secondary-color:#03A9F4;
+  --tertiary-color:#F5F5F5;
+  --quaternary-color:#F8F8F8;
+  --quinary-color:#FAFAFA;
+  --senary-color:#FCFCFC;
+}

@@ -1,10 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import React from 'react'
+import styles from './page.module.css'
 
-export default function Home() {
+const page = () => {
   return (
-    <main>
-      <h1>Home</h1>
-    </main>
-  );
+    <div className={styles.dashboard}>
+      <h1>Dashboard</h1>
+    </div>
+  )
 }
+
+export default page
